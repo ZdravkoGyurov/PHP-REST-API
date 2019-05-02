@@ -1,0 +1,29 @@
+<!DOCTYPE>
+<html lang="bg">
+    <head>
+        <title>PHP HW2 Delete User</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../../resources/css/style.css">
+        <script type="text/javascript" src="../../resources/js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="../../resources/js/script.js"></script>
+    </head>
+    <body>
+        <a href="../../index.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="create.html">Register a user</a>
+        <a href="findAll.html">Display all users in the system</a>
+        <a href="remove.html">Remove a user from the system</a>
+        <a href="logout.html">Logout</a>
+        <div id="loginInfo"><script>getLoginInfo();</script></div>
+        <span id="endLoginInfo"></span>
+        <form onsubmit="submitRemoveForm()">
+            <div id="errorsInfo"></div>
+            <div id="successInfo"></div>
+            <h1>Remove user</h1>
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="Email"></input>
+            <input type="submit" value="Remove"></input>
+        </form>
+        <div id="responseInfo"></div>
+    </body>
+</html>

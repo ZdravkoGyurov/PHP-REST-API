@@ -1,0 +1,113 @@
+a {
+    text-decoration: none;
+    color: #6495ed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 15px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #4a81e6;
+}
+
+input {
+    margin: 5px auto;
+    padding: 5px;
+    width: 100%;
+    font-size: 15px;
+    border: 2px solid #6495ed;
+    border-radius: 5px;
+}
+
+input[type=submit] {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #6495ed;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+input[type=submit]:hover {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4a81e6;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+form {
+    width: 25%;
+    margin: 50px 37.5% 0 37.5%;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #6495ed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 5px auto;
+    text-align: center;
+}
+
+#errorsInfo {
+    display: none;
+    text-align: center;
+    color: rgb(204, 29, 29);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px auto;
+}
+
+#successInfo {
+    display: none;
+    text-align: center;
+    color: rgb(29, 204, 29);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px auto;
+}
+
+label {
+    color: #6495ed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 5px auto;
+    text-align: left;
+}
+
+#responseInfo {
+    width: 50%;
+    margin: 50px 25% 0 25%;
+    box-sizing: border-box;
+    text-align: center;
+    color: #6495ed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#loginInfo {
+    float: right;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px 15px;
+}
+
+#endloginInfo {
+    clear: both;
+}
+
+#homeTitle {
+    margin-top: 50px;
+}
